@@ -1,7 +1,7 @@
 # android-group5
-echo "# android-group5" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/deoxys0325/android-group5.git
-git push -u origin master
+校園輔助APP
+
+開發人員:
+資工系 00331023 郭銘浩
+資工系 00457133 鄧宇勛
+
