@@ -32,3 +32,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }
+
+//Emulator: [8732]:WARNING:android/android-emu/android/featurecontrol/FeatureControlImpl.cpp:155:Failed to load advanced feature default setting:C:\Users\deoxys\AppData\Local\Android\Sdk\emulator\lib\advancedFeatures.ini
+
+//Emulator: qemu: could not load PC BIOS 'bios-256k.bin'
+
+//Emulator: Process finished with exit code 1
