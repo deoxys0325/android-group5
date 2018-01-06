@@ -1,38 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="368dp"
-        android:layout_height="495dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
 
-        <Button
-            android:id="@+id/button1"
-            style="@android:style/Widget.Button"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="地圖導覽"
-            android:textSize="36sp" />
+    <Button
+        android:id="@+id/button1"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="地圖導覽"
+        android:textSize="36sp" />
 
-        <Button
-            android:id="@+id/button2"
-            style="@android:style/Widget.Button"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="公共設施"
-            android:textSize="36sp" />
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="公共設施"
+        android:textSize="36sp" />
 
-        <Button
-            android:id="@+id/button3"
-            style="@android:style/Widget.Button"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="活動資訊"
-            android:textAlignment="center"
-            android:textSize="36sp" />
+    <Button
+        android:id="@+id/button3"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="活動資訊"
+        android:textAlignment="center"
+        android:textSize="36sp" />
 
-    </LinearLayout>
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.Button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="其他資訊"
+        android:textSize="36dp" />
+
+</LinearLayout>
 

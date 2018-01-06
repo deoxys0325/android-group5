@@ -3,12 +3,16 @@ package com.example.deoxys.schooltutor;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTabHost;
+import android.view.View;
 
 public class EventInfo extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event_info);
+
+        View v = findViewById(R.id.layout);//找到你要设透明背景的layout 的id
+        v.getBackground().setAlpha(100);//0~255透明度值
         FragmentTabHost tabHost = (FragmentTabHost) findViewById(android.R.id.tabhost);
         tabHost.setup(this, getSupportFragmentManager(), R.id.realtabcontent);
         //1

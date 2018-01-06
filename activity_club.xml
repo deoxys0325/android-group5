@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.example.deoxys.schooltutor.Club">
 
-
     <!-- 標籤切換的內容圖片 -->
     <ImageView
         android:id="@+id/img"

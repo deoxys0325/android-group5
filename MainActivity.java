@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button button1, button2, button3;
+    private Button button1, button2, button3, button4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
         button1 = (Button) findViewById(R.id.button1);
         button2 = (Button) findViewById(R.id.button2);
         button3 = (Button) findViewById(R.id.button3);
+        button4 = (Button) findViewById(R.id.button4);
+        View v = findViewById(R.id.layout);//找到你要设透明背景的layout 的id
+        v.getBackground().setAlpha(100);//0~255透明度值
         //實做OnClickListener界面
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,6 +55,14 @@ public class MainActivity extends AppCompatActivity {
                 //從MainActivity 到Main2Activity
                 intent.setClass(MainActivity.this, EventInfo.class);
                 //開啟Activity
+                startActivity(intent);
+            }
+        });
+        button4.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this, Others.class);
                 startActivity(intent);
             }
         });
